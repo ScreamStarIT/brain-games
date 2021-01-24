@@ -1,11 +1,12 @@
 {
   "name": "@hexlet/code",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Проект: Игры разума",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/ScreamStarIT/frontend-project-lvl1#readme",
   "dependencies": {
+    "lodash": "^4.17.20",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
