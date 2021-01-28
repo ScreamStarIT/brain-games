@@ -1,13 +1,14 @@
 {
   "name": "@hexlet/code",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Проект: Игры разума",
   "type": "module",
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js"
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
