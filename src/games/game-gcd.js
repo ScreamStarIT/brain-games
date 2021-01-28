@@ -12,6 +12,6 @@ export const coreOfGame = () => {
     }
     return gcd(num2, num1 % num2);
   };
-  const rightAnswer = String(gcd(number1, number2));
+  const rightAnswer = gcd(number1, number2);
   return { task, rightAnswer };
 };

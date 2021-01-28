@@ -23,6 +23,6 @@ export const coreOfGame = () => {
         return num1 * num2;
     }
   };
-  const rightAnswer = String(calc(oper, number1, number2));
+  const rightAnswer = calc(oper, number1, number2);
   return { task, rightAnswer };
 };
