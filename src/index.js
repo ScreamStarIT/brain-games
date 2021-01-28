@@ -8,7 +8,7 @@ const gameEngine = (manual, coreOfGame) => {
     const { task, rightAnswer } = coreOfGame();
     console.log(`Question: ${task}`);
     const answer = readlineSync.question('Your answer: ');
-    if (rightAnswer === answer) {
+    if (String(rightAnswer) === answer) {
       console.log('Correct!');
       i += 1;
     } else {
