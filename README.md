@@ -7,3 +7,4 @@
 #### [Game: Calculator](https://asciinema.org/a/5jKfEzfx4IWnsbVYZumHCgtm7)
 #### [Game: GCD](https://asciinema.org/a/4EaHNDX846YSVzb2cjPYoAgNL)
 #### [Game: Arithmetical progression](https://asciinema.org/a/ouFk8l8Wa8NvcCbeMhx3qSqtd)
+#### [Game: Prime number](https://asciinema.org/a/XlhJVbAOnfoS1gcynuvgflsqc)
