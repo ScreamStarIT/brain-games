@@ -1,8 +1,7 @@
 import _ from 'lodash';
 
-export const manual = 'Find the greatest common divisor of given numbers.';
-
-export const coreOfGame = () => {
+const getCoreOfGame = () => {
+  const manual = 'Find the greatest common divisor of given numbers.';
   const number1 = _.random(1, 100);
   const number2 = _.random(1, 100);
   const task = `${number1} ${number2}`;
@@ -13,5 +12,7 @@ export const coreOfGame = () => {
     return gcd(num2, num1 % num2);
   };
   const rightAnswer = gcd(number1, number2);
-  return { task, rightAnswer };
+  return { manual, task, rightAnswer };
 };
+
+export default getCoreOfGame;

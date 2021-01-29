@@ -1,8 +1,7 @@
 import _ from 'lodash';
 
-export const manual = 'What number is missing in the progression?';
-
-export const coreOfGame = () => {
+const getCoreOfGame = () => {
+  const manual = 'What number is missing in the progression?';
   const lengthOfProgression = 10;
   const beginOfProgression = _.random(1, 100);
   const stepOfProgression = _.random(1, 100);
@@ -14,5 +13,7 @@ export const coreOfGame = () => {
   const rightAnswer = progression[hiddenNumber];
   progression[hiddenNumber] = '..';
   const task = progression.join(' ');
-  return { task, rightAnswer };
+  return { manual, task, rightAnswer };
 };
+
+export default getCoreOfGame;
